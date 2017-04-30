@@ -1,0 +1,369 @@
+/* A Free Design by Bryant Smith (bryantsmith.com) */
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #C1C1C1;
+	background-image:url(images/background.png)
+	text-align: left;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #F1F5F8;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+
+
+
+#header h1
+{
+display:block;
+float:left;
+line-height:70px;
+margin-left:17px;
+width:230px;
+color:#FFFFFF;
+text-align:left;
+font-size:23px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+float:left;
+
+}
+
+
+#header ul {
+	padding: 0px;
+	list-style-type: none;
+	height:21px;
+	text-align:center;
+	height:85px;
+	overflow:hidden;
+}
+#header ul li , #header ul li a, #header ul li a:visited{
+	display:block;
+	float:left;
+	margin: 0px;
+	text-align:center;
+	line-height:72px;
+	width:133px;
+	color:#FFFFFF;
+
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#header ul li a:hover{
+color:#CCCCCC;
+}
+
+
+
+#main 
+{
+margin-top:10px;
+margin-bottom:10px;
+}
+
+
+#main .main_top
+{
+height:85px;
+width:921px;
+background-image:url(images/main_top.png);
+background-repeat:no-repeat;
+}
+
+#main .main_body
+{
+
+padding-left:0px;
+height:auto;
+width:921px;
+background-image:url(images/main_body.png);
+background-repeat:repeat-y;
+color:#000000;
+padding-bottom:20px;
+
+
+}
+
+
+#main .main_top h1
+{
+font-size:24px;
+line-height:85px;
+color:#000000;
+padding-left:25px;
+background-position:right;
+background-repeat:no-repeat;
+margin-right:25px;
+}
+
+#main .main_body p
+{
+line-height:19px;
+letter-spacing:1px;
+padding-bottom:15px;
+padding-left:20px;
+padding-right:20px;
+}
+
+
+#main .main_bottom
+{
+height:8px;
+width:921px;
+background-image:url(images/main_bottom.png);
+background-repeat:no-repeat;
+}
+
+
+#page
+{
+  margin: 0 auto 0 auto; 
+  margin-top:25px;
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 921px;
+}
+
+#header
+{
+background-image:url(images/header.png);
+background-repeat:no-repeat;
+width:921px;
+height:72px;
+}
+
+
+
+#footer {
+display:block;
+width: 921px;
+height:74px;
+background: url(images/footer.png) no-repeat;
+text-align:right;
+font-size:9px;
+line-height:75px;
+}
+
+#footer p{
+padding-right:20px;
+text-align:right;
+}
+
+#footer, #footer a, #footer a:visited{
+color:#FFFFFF;
+}
+
+#footer a:hover{
+text-decoration:none;
+color:#CCCCCC;
+}
+
+dl {
+    width: 600px;
+    margin: auto;
+    text-align: center;	
+	padding-bottom: 40px;
+}
+
+
+dd {
+    margin: 0;
+    padding: 1em 0;
+}
+
+dt {
+    cursor: pointer;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size : 1.5em;
+    line-height: 2em;
+    background: #e3e3e3;
+    border-bottom: 1px solid #c5c5c5;
+    border-top: 1px solid white;
+}
+
+dt:first-child { border-top: none; }
+dt:nth-last-child(2) { border-bottom: none; }
+
+.hide { display: none;}
+
+progress
+{
+  text-align:center;
+  height:25px;
+  width:200px;
+}
+progress:before {
+  content: 'Value is ' attr(value);
+  position:relative;
+  top:5px;
+}
+.unique:before {
+  content: attr(data-label);
+}
+
+#stat  {
+   
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	display: flex;
+    width: 100%;
+}
+
+#stat2 {
+   
+    width: 50%;
+}
+
+#govdiv {
+	
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	
+}
+
+form.gov  {
+	background-color: #fff;
+	padding: 1em;
+	width: 500px;
+	margin: 50px auto 100px auto;
+	box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+	border-radius: 3px;}
+	
+.gov  input {
+	font-size: 1em;
+	line-height: 1em;
+	height: 50px;
+	padding: 0px 10px;
+	border: none;
+	margin-bottom: 2px;}
+	
+ input[type=submit] {
+	background-color: #14b9d6;
+	display: block;
+	margin: 20px auto 20px auto;
+	border-radius: 5px;
+	line-height: 1em;
+	padding: 0em 2em 0em 2em;
+	color: #fff;
+	-webkit-appearance: none;}
+
+ input[type=submit]:hover {
+	background-color: #ff8800;
+	cursor: pointer;}
+
+ input[type=text] {
+	background-color: #474849;
+	padding-left: 40px;
+	width: 220px;}
+
+ input {
+	color: #fff;
+	font-size: 1em;
+ 	font-weight: bold;}
+	
+	
+#govp {
+	background-color: #fff;
+	
+	padding: 10px 0px 10px 0px;
+	margin: 0px;
+	font-size: 1.6em;
+	border-top: 1px solid #999;
+	text-align: center;
+	color: #14b9d6;
+	font-weight: bold;}
+	
+#govh {
+	 margin: 0px;
+	color: #474849;
+	text-align: center;
+	height: 40px;}
+	
+}
+
+table.govtab {
+    border-collapse: collapse;
+    width: 30px;
+}
+
+.govtab  th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.govtab  tr:nth-child(even){background-color: #f2f2f2}
+
+.govtab th {
+    
+    color: white;
+}
+
+h3 { 
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+	line-height: 200%;
+	text-align: left
+}
+
+#contact { 
+		background: #e3e3e3; 
+		padding: 1em 2em; 
+		position: relative;
+		width:  866px;;
+	}
+
+#contact li { 
+		list-style: none;
+		margin-bottom: 1em;
+	}	
+	
+form.about  {
+	
+	padding: 1em;
+	
+	
+	
+	}
+	
+.about input, textarea { 
+       width: 100%; 
+       line-height: 2em;
+	   color: black;
+	   }
+	
+.js #contacting{
+		position: absolute;
+		top: 0;
+		width: inherit;
+		display: none;
+	}
+
+

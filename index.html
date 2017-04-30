@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<style type="text/css">
+.style1 {color: #FFFFFF}
+.style8 {
+	font-size: 16px;
+	font-weight: bold;
+}
+.style10 {font-size: 24px}
+.style11 {color: #FFFFFF; font-weight: bold; }
+.style12 {
+	font-size: 12px;
+	font-weight: bold;}
+.L1 { font-size: 18px; color:white; font-family="Times New Roman"; }
+.L2 { font-size: 11px; color:blue; font-family="Thoma"; }
+.L3 { font-size: 11px; color:black; font-family="Thoma"; }
+#National,#Baghdad,#Diyala,#Sulaymania,#Wasit,#Misan,#Basrah,#Qadyssia,#Dhouk,#Erbil,#Kirkuk,#Salahaldeen,#Ninewa,#Anbar,#Babi,#Karbala,#Najaf,#Muthana,#TheQar {  VISIBILITY: hidden;  position:absolute; left:551px; top:198px}	
+</style>
+
+<SCRIPT type="text/javascript">
+
+var iWidth=0, iPopupLeft=0;
+
+
+function toggleDiv(id,flagit) 
+{
+	var lNational = "National"
+	if (flagit=="1")
+	{
+		if (document.layers) { 
+			document.layers[''+id+''].visibility = "show"
+			document.layers[''+lNational+''].visibility = "hide"
+		}
+		else if (document.all) {
+			document.all[''+id+''].style.visibility = "visible"
+			document.all[''+lNational+''].style.visibility = "hidden"
+		}
+		else if (document.getElementById) {
+			document.getElementById(''+id+'').style.visibility = "visible"		
+			document.getElementById(''+lNational+'').style.visibility = "hidden"					
+		}
+	}
+else if (flagit=="0"){
+	if (document.layers) 
+		{
+			document.layers[''+id+''].visibility = "hide"
+			document.layers[''+lNational+''].visibility = "show"
+		}
+	else if (document.all) 
+		{
+			document.all[''+id+''].style.visibility = "hidden"
+			document.all[''+lNational+''].style.visibility = "visible"
+		}
+	else if (document.getElementById) 
+		{
+			document.getElementById(''+id+'').style.visibility = "hidden"
+			document.getElementById(''+lNational+'').style.visibility = "visible"				
+		}
+	}			
+ }
+ function pageLoad()
+{
+ 
+ toggleDiv('National',0)
+}
+</script>
+</head>
+
+<BODY>
+    <div id="page">
+		
+        <div id="header">
+        	<h1>Elecations Result</h1>
+            <ul>
+           	   	<li><a id="all" href="#">All Result</a></li>
+               	<li><a id ="gov" href="#">By Govern.</a></li>
+                <li><a id="map" href="#">Map</a></li>
+                <li><a id="about" href="#">About</a></li>
+                <li><a id="Contact" href="#">Contact</a></li>
+            </ul>
+        </div>
+  
+        <div id="main">
+        
+        	<div class="main_top">
+            <h1 id="title"></h1>
+            </div>
+            
+           	<div class="main_body">
+			<div id="show"><br><p>
+				<h1 style="text-align: center">Welcome. <br><br>Thank You For 
+				Visiting This Site..!</h1></p><br><br><br><br><br><br><br><br><br><br></div>
+			
+			
+			<div id="contacting">
+		<form  class ="about" action="#">
+		
+					<table width="503" >
+				<tr>
+				     <td>Name:</td>
+					<td><input class ="about" name="name" id="name" ></td>	
+				</tr>
+				<tr>
+				     <td>Email Address:</td>
+					<td><input name="email" id="email" ></td>	
+				</tr>
+			
+				<tr>
+				     <td>Message:</td>
+					<td>
+					<textarea name="comments" id="comments" cols="43" rows="10"></textarea></td>	
+				</tr>
+			
+			
+			    <tr>
+				     <td></td>
+					<td><input type="submit" value="Submit"></td>	
+				</tr>
+
+			   </table>		
+		</form>
+      </div>
+			
+			<div>
+            <dl></dl>
+			<div id="gov_output">
+            </div>
+            
+           	<div class="main_bottom"></div>
+            
+        </div>
+        
+        
+        
+        <div id="footer">
+        &nbsp;</div> 
+        </div>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script src="js/map.js"></script>
+</body>
+</html>

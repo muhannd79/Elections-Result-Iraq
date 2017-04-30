@@ -1,0 +1,200 @@
+[
+  {
+    "city": "Sulaymania",
+    "polling_stations_processed": 2066,
+    "total_valid_votes": 787248,
+    "total_invalid_votes": 7016,
+    "total_blank": 2677,
+    "total_votes": 796941,
+    "registered_voters": 961786,
+    "bgcolorh": "#CCCCFF",
+    "bgcolorc": "#E8E8FF"
+  },
+  {
+    "city": "Wasit",
+    "polling_stations_processed": 1101,
+    "total_valid_votes": 346564,
+    "total_invalid_votes": 3395,
+    "total_blank": 480,
+    "total_votes": 350439,
+    "registered_voters": 521466,
+    "bgcolorh": "#006630",
+    "bgcolorc": "#A8FFD3"
+  },
+  {
+    "city": "Misan",
+    "polling_stations_processed": 948,
+    "total_valid_votes": 317177,
+    "total_invalid_votes": 2187,
+    "total_blank": 265,
+    "total_votes": 319629,
+    "registered_voters": 441168,
+    "bgcolorh": "#006833",
+    "bgcolorc": "#A8FFD3"
+  },
+  {
+    "city": "Basrah",
+    "polling_stations_processed": 2274,
+    "total_valid_votes": 794286,
+    "total_invalid_votes": 9813,
+    "total_blank": 1027,
+    "total_votes": 805126,
+    "registered_voters": 1096749,
+    "bgcolorh": "#65FECA",
+    "bgcolorc": "#BFFFE9"
+  },
+  {
+    "city": "TheQar",
+    "polling_stations_processed": 1749,
+    "total_valid_votes": 576660,
+    "total_invalid_votes": 4403,
+    "total_blank": 1353,
+    "total_votes": 582416,
+    "registered_voters": 818939,
+    "bgcolorh": "#65FECA",
+    "bgcolorc": "#BFFFE9"
+  },
+  {
+    "city": "Muthana",
+    "polling_stations_processed": 670,
+    "total_valid_votes": 203902,
+    "total_invalid_votes": 2341,
+    "total_blank": 520,
+    "total_votes": 206763,
+    "registered_voters": 315842,
+    "bgcolorh": "#9AE79A",
+    "bgcolorc": "#BBEEBB"
+  },
+  {
+    "city": "Qadyssia",
+    "polling_stations_processed": 1104,
+    "total_valid_votes": 331302,
+    "total_invalid_votes": 3324,
+    "total_blank": 571,
+    "total_votes": 335197,
+    "registered_voters": 524073,
+    "bgcolorh": "#CCFF66",
+    "bgcolorc": "#EAFFB9"
+  },
+  {
+    "city": "Najaf",
+    "polling_stations_processed": 1111,
+    "total_valid_votes": 368856,
+    "total_invalid_votes": 5175,
+    "total_blank": 521,
+    "total_votes": 374543,
+    "registered_voters": 529890,
+    "bgcolorh": "#98FD00",
+    "bgcolorc": "#ECFFCE"
+  },
+  {
+    "city": "Babi",
+    "polling_stations_processed": 1497,
+    "total_valid_votes": 553133,
+    "total_invalid_votes": 8140,
+    "total_blank": 1227,
+    "total_votes": 562500,
+    "registered_voters": 747588,
+    "bgcolorh": "#6AFF6A",
+    "bgcolorc": "#E8FFE8"
+  },
+  {
+    "city": "Karbala",
+    "polling_stations_processed": 940,
+    "total_valid_votes": 302834,
+    "total_invalid_votes": 3894,
+    "total_blank": 550,
+    "total_votes": 307278,
+    "registered_voters": 439764,
+    "bgcolorh": "#99FE98",
+    "bgcolorc": "#D9FFD9"
+  },
+  {
+    "city": "Anbar",
+    "polling_stations_processed": 728,
+    "total_valid_votes": 369755,
+    "total_invalid_votes": 2662,
+    "total_blank": 1261,
+    "total_votes": 373678,
+    "registered_voters": 677821,
+    "bgcolorh": "#FFFF5E",
+    "bgcolorc": "#FFFFD2"
+  },
+  {
+    "city": "Ninewa",
+    "polling_stations_processed": 2295,
+    "total_valid_votes": 820350,
+    "total_invalid_votes": 12146,
+    "total_blank": 5822,
+    "total_votes": 838318,
+    "registered_voters": 1343381,
+    "bgcolorh": "#6667CC",
+    "bgcolorc": "#C6C6EC"
+  },
+  {
+    "city": "Salahaldeen",
+    "polling_stations_processed": 1073,
+    "total_valid_votes": 487455,
+    "total_invalid_votes": 6124,
+    "total_blank": 5339,
+    "total_votes": 498918,
+    "registered_voters": 564607,
+    "bgcolorh": "#FFFF66",
+    "bgcolorc": "#FFFFCA"
+  },
+  {
+    "city": "Kirkuk",
+    "polling_stations_processed": 1304,
+    "total_valid_votes": 514088,
+    "total_invalid_votes": 5919,
+    "total_blank": 2940,
+    "total_votes": 522947,
+    "registered_voters": 691581,
+    "bgcolorh": "#9899FE",
+    "bgcolorc": "#E8E8FF"
+  },
+  {
+    "city": "Erbil",
+    "polling_stations_processed": 1491,
+    "total_valid_votes": 660168,
+    "total_invalid_votes": 7709,
+    "total_blank": 1817,
+    "total_votes": 669694,
+    "registered_voters": 870026,
+    "bgcolorh": "#669AFF",
+    "bgcolorc": "#E8E8FF"
+  },
+  {
+    "city": "Dhouk",
+    "polling_stations_processed": 845,
+    "total_valid_votes": 394662,
+    "total_invalid_votes": 3325,
+    "total_blank": 687,
+    "total_votes": 398674,
+    "registered_voters": 458924,
+    "bgcolorh": "#6465FE",
+    "bgcolorc": "#E8E8FF"
+  },
+  {
+    "city": "Baghdad",
+    "polling_stations_processed": 0,
+    "total_valid_votes": 876543,
+    "total_invalid_votes": 46432,
+    "total_blank": 2346,
+    "total_votes": 77868,
+    "registered_voters": 969694,
+    "bgcolorh": "#FF0000",
+    "bgcolorc": "#FFCACA"
+  },
+  {
+    "city": "Diyala",
+    "polling_stations_processed": 1353,
+    "total_valid_votes": 495522,
+    "total_invalid_votes": 5833,
+    "total_blank": 3873,
+    "total_votes": 505228,
+    "registered_voters": 707598,
+    "bgcolorh": "#FFCC00",
+    "bgcolorc": "#FFEDA4"
+  }
+]
